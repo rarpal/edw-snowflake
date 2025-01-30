@@ -1,11 +1,6 @@
 use role accountadmin;
 use edw.public;
 
--- create or replace secret git_rarpal_secret
---     type = password
---     username = ''
---     password = '';
-
 create or replace api integration git_rarpal_integration
     api_provider = git_https_api
     api_allowed_prefixes = ('https://github.com/rarpal')
