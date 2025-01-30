@@ -6,7 +6,7 @@ use edw.public;
 create or replace secret git_rarpal_secret
     type = password
     username = 'rarpal'
-    password = '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';
+    password = '';
 
 create or replace api integration git_rarpal_integration
     api_provider = git_https_api
