@@ -1,3 +1,4 @@
+use role sysadmin;
 use edw.sales_bronze;
 
 create or replace view EDW.SALES_BRONZE.VW_SALES_BRONZE_SILVER(
