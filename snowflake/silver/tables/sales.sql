@@ -1,5 +1,4 @@
 use role sysadmin;
-
 use edw.sales_silver;
 
 create or replace TABLE EDW.SALES_SILVER.SALES (
